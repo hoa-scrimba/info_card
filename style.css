@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+.container {
+    max-width: 317px;
+    margin: 44px auto 0px;
+    /* background-color: #1A1B21; */
+}
+
+body {
+    background-color: #23252C;
+}
+
+.info--container, 
+.about--container, 
+.interests--container {
+    background-color: #1A1B21;
+    position: relative;
+}
+
+.about--container, 
+.interests--container {
+    padding: 1px 0px;
+}
+
+/****** Info Section ******/
+.info-logo-container {
+    background-color: #23252C;
+}
+
+.info-logo {
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: -2.7084px;
+}
+
+.info--container > h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+.info--container > h3 {
+    color: #F3BF99;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+}
+
+.info--container > h4 {
+    color: #F5F5F5;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+
+.bttn-email {
+    position: relative;
+    bottom: 25px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+    padding: 9px 13px 9px 11px;
+    margin-left: 35px;
+    margin-right: 17px; 
+}
+
+.bttn-email > i {
+    color: #1E1F26;
+    font-size: 16px;
+    position: relative;
+    bottom: 1px;
+}
+
+.bttn-email > span {
+    font-family: Inter, sans-serif;
+    color: #374151;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 9px;
+    position: relative;
+    bottom: 2px;
+}
+
+.bttn-linkedin {
+    position: relative;
+    bottom: 25px;
+    background: #5093E2;
+    border: 1px solid #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+    padding: 9px 13px 9px 11px;
+}
+
+.bttn-linkedin > i {
+    color: #FFFFFF;
+    font-size: 16px;
+    position: relative;
+    bottom: 1px;
+}
+
+.bttn-linkedin > span {
+    font-family: Inter, sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 9px;
+    position: relative;
+    bottom: 2px;
+}
+
+/****** About Section ******/
+.about--container > h2 {
+    position: relative;
+    color: #F5F5F5;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    left: 35px;
+}
+
+.about--container > h4 {
+    position: relative;
+    color: #DCDCDC;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    max-width: 250px;
+    left: 35px;
+    bottom: 10px;
+}
+
+/****** Interests Section ******/
+.interests--container > h2 {
+    position: relative;
+    color: #F5F5F5;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    left: 35px;
+}
+
+.interests--container > h4 {
+    position: relative;
+    color: #DCDCDC;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    max-width: 250px;
+    left: 35px;
+    bottom: 10px;
+}
+
+/****** Footer Section ******/
+.footer--container {
+     background-color: #161619;
+     height: 64px;
+     border-radius: 0px 0px 10px 10px;
+     margin: 0;
+     position: relative;
+}
+
+.footer--container > i {
+    position: absolute;
+    color: #918E9B;
+    bottom: 18px;
+    font-size: 30px;
+}
+
+.twitter {
+    left: 73px;
+    right: 24px;
+}
+
+.facebook {
+    left: 122px;
+    right: 170px;
+}
+
+.instagram {
+    left: 171px;
+    right: 121px;
+}
+
+.github {
+    left: 219.5px;
+    right: 72.5px;
+}
